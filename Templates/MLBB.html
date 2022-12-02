@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<head>
+  <title>Mobile Legends</title>
+  <script type="text/javascript" nonce="658db13c5f0741b19ab721d93f2" src="//local.adguard.org?ts=1615027184370&amp;type=content-script&amp;dmn=doc-0s-50-docs.googleusercontent.com&amp;app=com.operasoftware.OperaDeveloper&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1&amp;sbe=0&amp;stealth=1&amp;uag="></script>
+<script type="text/javascript" nonce="658db13c5f0741b19ab721d93f2" src="//local.adguard.org?ts=1615027184370&amp;name=AdGuard%20Extra&amp;type=user-script"></script><link rel="stylesheet" href="../Static/Css/MLBB.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0,minimum-scale = 1.0,">
+  <!-- link for Corusel-->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">-->
+</head>
+
+<body>
+  <div class="Main">
+    <div class="slidebox">
+      <!-- Navigation -->
+      <nav class="topslide">
+        <a href="MLBB.html" class="topslideA">Home</a>
+        <a href="About.html" class="topslideA">About</a>
+        <a href="ModelSection.html" class="topslideA">Models</a>
+        <a href="Contacts.html" class="topslideA">Contact</a>
+        <div class="srch">
+          <input type="text" placeholder="Search.." name="search" id="searchform">
+          <img src="../Static/img/search1.png" alt="searchicon" style="padding-top: 2px; cursor: pointer;">
+        </div>
+      </nav>
+    </div>
+    <!--Center SlideShow Gallery-->
+    <div class="homegallery">
+      <div class="homeitems">
+        <img src="../Static/img/printer1.jpg" style="width: 55%" alt="hoomegalleryphoto">
+        <p class="printer1text"><b>Welcome!</b> <br>
+          If u interested in 3Dprinters <br>
+          Here is your page!
+        </p>
+      </div>
+      <div class="homeitems">
+        <img src="../Static/img/printerlogo.png" style="width: 55%;" alt="hoomegalleryphoto">
+        <p class="printer2text">Here you could find any information about:<br>
+          3D-printing diveces!<br>
+          Interesting Ideas!<br>
+          Materials Section!<br>
+        </p>
+      </div>
+      <div class="homeitems">
+        <img src="../Static/img/printer3.webp" style="width: 30.95%" alt="hoomegalleryphoto">
+      </div>
+      <div class="homeitems">
+        <img src="../Static/img/modelhomebar.jpg" style="width: 55%" alt="hoomegalleryphoto">
+      </div>
+      <div class="homeitems">
+        <img src="../Static/img/Contactmidbar.jpg" style="width: 49.55%" alt="hoomegalleryphoto">
+        <p class="printer3text">
+          
+      </div>
+      <div class="homeitems">
+        <img src="../Static/img/lastmidbar.jpg" style="width: 48.3%" alt="hoomegalleryphoto">
+      </div>
+      <!-- Arrow Function-->
+      <a class="prev" onclick="nextSlides(-1)">❮</a>
+      <a class="next" onclick="nextSlides(1)">❯</a>
+      <!--SlideShow Function (On Click!)-->
+      <div class="midbar-homegallery">
+        <p id="midbar"></p>
+      </div>
+      <div class="rolling">
+        <div class="bars">
+          <img class="demo cursor" src="../Static/img/printer1.jpg" style="width:100%; height:11vw;"
+            onclick=" currentSlide(1)" alt="Introduce">
+        </div>
+        <div class="bars">
+          <img class="demo cursor" src="../Static/img/printerlogo.png" style="width:100%; height:11vw;"
+            onclick=" currentSlide(2)" alt="Information">
+        </div>
+        <div class="bars">
+          <img class="demo cursor" src="../Static/img/printer3.webp" style="width:100%; height:11vw;"
+            onclick=" currentSlide(3)" alt="Printers">
+        </div>
+        <div class="bars">
+          <img class="demo cursor" src="../Static/img/modelhomebar.jpg" style="width:100%; height:11vw;"
+            onclick=" currentSlide(4)" alt="Models">
+        </div>
+        <div class="bars">
+          <img class="demo cursor" src="../Static/img/Contactmidbar.jpg" style="width:100%; height:11vw;"
+            onclick=" currentSlide(5)" alt="Contacts">
+        </div>
+        <div class="bars">
+          <img class="demo cursor" src="../Static/img/lastmidbar.jpg" style="width:100%; height:11vw;"
+            onclick=" currentSlide(6)" alt="Enjoy!">
+        </div>
+      </div>
+    </div>
+    <!-- Corusel Test-->
+    <!-- <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>-->
+    <!-- Home-->
+    <div class="homearticles">
+      <h1> Home<br></h1>
+      <div class="homeimg"><img src="../Static/img/Introarticle4.jpg" alt="homephoto"
+          style="max-width:69%;height:auto;min-width:69%;"></div>
+      <!--Introduce-->
+      <h1> Introduce</h1>
+      <div class="homearticleintroduce">
+        <p class="introducingtext" style="text-decoration:none;">Are you interested in 3D-printing?</p> Then here is your place! In our website we
+        show,
+        different kind of divices, who use the 3D-printing Technology,
+        we have <a href="ModelSection.html" style="text-decoration:none">Model Section</a>, where you could see some ideas, projects and products from other people.
+        For more information about us or our work check the <a href="About.html" style="text-decoration:none"> About Menu.</a>
+        If you want to ask about product or want show your own, you can contact us by using the <a href="Contacts.html" style="text-decoration:none">Contact Menu</a> options.
+        You can visit our office: See location--> <a href="https://www.google.bg/maps/place/ул.+„Цар+Иван+Шишман“+26,+1000+Център,+София/@42.6906223,23.3286806,18.5z/data=!4m5!3m4!1s0x40aa85735f3377b9:0xb7b0e58c5e24e766!8m2!3d42.6907693!4d23.3289487" target="_blank">Here!</a>.
+      </div>
+      <div class="homeintroduceimg"></div>
+      <!--Lastest Products-->
+      <h1>Latest Products Bellow</h1>
+      <div class="homearticle1">
+        <a href="product1.html" target="_blank">
+        <img class="vemo article1" src="../Static/img/article1.jpg" alt="lastestproduct"></a>
+        <a href="product2.html" target="_blank">
+        <img class="vemo article1" src="../Static/img/article2.jpg" alt="lastestproduct"></a>
+        <a href="product3.html" target="_blank">
+        <img class="vemo article1" src="../Static/img/article3.jpg" alt="lastestproduct"></a>
+      </div>
+
+    </div>
+  </div>
+  <script src="../Static/Js/MLBB.js"></script>
+</body>
+
+
+
+
+</html>

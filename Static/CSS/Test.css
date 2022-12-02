@@ -1,0 +1,276 @@
+.slidebox {
+    background-color:black;
+    width: 100%;
+    height: 70px;
+    padding: 0px;
+    margin: 0px;
+
+}
+.topslide {
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+    
+   
+}
+.h1 {
+    width: 200px;
+    height: 100px;
+
+}
+.homegallery {
+   position: relative;
+   background-color: black;
+}
+.homeitems {
+    display:none;
+    text-align: center;
+    background-color: black;
+    overflow:auto;
+}
+#searchform {
+    width: 250px;
+    height: 28px;
+    font-size: 15px;
+    font-family: Arial;
+    text-rendering: optimizeSpeed;
+    background-color: white;
+    float: right;
+    border: 0px;
+    padding: 5px;
+    border-color: 0;
+}
+.topslide a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 32px;
+}
+.topslide a:hover{
+        background-color: white;
+        color: black;
+}
+.Main {
+    width: 100%;
+    height: 95%;
+    padding: 0px;
+    margin-right: 0px;
+}
+body {margin:0;padding:0}
+
+.srch {
+    float: right;
+    overflow:visible;
+    display: outside;
+    background-color:white;
+    border: none;
+    height: 28px;
+    margin-right: 15px;
+    margin-top: 40px;
+}
+input[type="text" i] {
+    padding: 0px 0px;
+
+}
+
+nav {
+    display: absolute;
+}
+*{
+box-sizing: border-box;
+}
+
+.cursor {
+    cursor: pointer;
+  }
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover,
+  .next:hover {
+    background-color:#9c9c9c;
+  }
+  .midbar-homegallery {
+    text-align: center;
+    background-color: #222;
+    padding: 2px;
+    color: white;
+    font-size:30px;
+    font-family: impact, fantasy;
+  }
+  #midbar {
+    font-size:40px;
+    cursor:default;
+    margin: 0px;
+  }
+  .rolling:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .bars {
+    float: left;
+    width: 16.66%;
+  }
+  .demo {
+    opacity: 0.3;
+  }
+  .vemo {
+    opacity: 0.7;
+  }
+  .vemo:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }  
+  .printer1text {
+    width:15%;
+    max-width: 15%;
+    height:auto; 
+    color: white;
+    background-color:black;
+    font-size: 1vw;
+    font-family: fantasy;
+    overflow:visible;
+    position:relative;
+    margin-bottom:0px;
+    text-align: center;
+    float: right;
+    margin-right: 200px;
+  }
+  b {
+    font-size: 2vw;
+    top: 20%;
+  }
+  .printer2text {
+    width:30%;
+    height:30%; 
+    color: white;
+    background-color:black;
+    font-size: 40px;
+    font-family: fantasy;
+    overflow:visible;
+    position:relative;
+    margin-bottom:0px;
+    text-align: center;
+    float: left;
+    padding-block: 80px;
+    margin-right: 200px;
+  }
+  .printer3text {
+    width:50%;
+    height:30%; 
+    color: white;
+    background-color:black;
+    font-size: 40px;
+    font-family: fantasy;
+    overflow:visible;
+    position:relative;
+    margin-bottom:0px;
+    text-align: center;
+    float: left;
+    padding-block: 80px;
+    margin-left: 467px;
+  }
+  .homearticles {
+    position: relative;
+    background-color: black;
+  }
+  .homearticle1 {
+    background-color: black;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+h1 { 
+  padding-top:30px;
+  margin:0px;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-family: fantasy;
+  background: black;
+  cursor: default;
+}
+.homearticleintroduce{
+  color: white;
+  padding-left: 290px;
+  padding-right: 290px;
+  margin: 0px;
+  font-size: 28.7px;
+  font-family: Arial;
+  letter-spacing: 0mm;
+  background-color: black;
+  text-align: justify;
+  cursor: default;
+ 
+}
+h2 { 
+  color: white; 
+  padding-left: 50px;
+  margin: 0px;
+  font-size: 60px;
+  padding-top:50px;
+  font-family: fantasy;
+  background-color: black;
+}
+.homeintroduceimg {
+  width: 40%;
+  background-color: black;
+  float: right;
+}
+.homeimg {
+  text-align: center;
+
+}
+p{
+  margin-block-end: 0px;
+}
+.article1{
+  float: left;
+  width: 33.333333%;
+  padding: 5px;
+  margin: 0px;
+  height: 400px;
+  background: black;
+  background-color: black;
+  background-repeat: no-repeat;
+  overflow:hidden;
+  border: none;
+  
+
+}
+.aboutintro{
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+ul{
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+}
+li{
+  color: white;
+}
