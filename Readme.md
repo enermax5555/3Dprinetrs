@@ -10,7 +10,7 @@ Created All the pages, with their styling.
 Include some js for dynamic content.
 
 ## What we still need:
-
+- Responsiveness is the first thing we should do. The site is not very responsive on moblile device.
 - We need an auth system for users
   - Only authenticated users could upload a 3D models(but everyone should have the apportunity to download for free!)
 - Auto genereting pages like:
